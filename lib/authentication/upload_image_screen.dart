@@ -61,40 +61,53 @@ class _UploadImageScreenState extends State<UploadImageScreen> {
         appBar: AppBar(
           title: const Text("Image Upload"),
         ),
-        body: Column(
-          children: [
-            GestureDetector(
-              onTap: () {
-                getImage();
-              },
-              child: Container(
-                  child: image == null
-                      ? const Center(child: Text("Pick Image."))
-                      : Container(
-                          child: Image.file(
-                            File(image!.path).absolute,
-                            height: 100,
-                            width: 100,
-                            fit: BoxFit.cover,
-                          ),
-                        )),
-            ),
-            const SizedBox(
-              height: 150,
-            ),
-            GestureDetector(
-              onTap: () {
-                uploadImage();
-              },
-              child: Container(
-                height: 50,
-                color: Colors.cyan,
-                child: const Center(
-                  child: Text("Upload"),
-                ),
+        body: Padding(
+          padding: const EdgeInsets.all(22.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              GestureDetector(
+                onTap: () {
+                  getImage();
+                },
+                child: Container(
+                    width: double.infinity,
+                    height: 155,
+                    decoration: BoxDecoration(border: Border.all()),
+                    child: image == null
+                        ? const Center(
+                            child: Text(
+                            "Pick Image.",
+                            style: TextStyle(
+                              color: Colors.blue,
+                            ),
+                          ))
+                        : Container(
+                            child: Image.file(
+                              File(image!.path).absolute,
+                              height: 100,
+                              width: 100,
+                              fit: BoxFit.cover,
+                            ),
+                          )),
               ),
-            )
-          ],
+              const SizedBox(
+                height: 55,
+              ),
+              GestureDetector(
+                onTap: () {
+                  uploadImage();
+                },
+                child: Container(
+                  height: 50,
+                  color: Colors.cyan,
+                  child: const Center(
+                    child: Text("Upload"),
+                  ),
+                ),
+              )
+            ],
+          ),
         ),
       ),
     );
