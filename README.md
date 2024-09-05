@@ -1,16 +1,21 @@
 <p>
 <img src="https://github.com/user-attachments/assets/fbfab1ba-38c2-4db6-93e8-212ac7aa4220" alt="Image 1" style="margin-right: 20px; margin-bottom: 10px;" width="30%">
 <img src="https://github.com/user-attachments/assets/8909c8e8-f0ad-4331-973b-6faa6f0e0bc9" alt="Image 1" style="margin-right: 20px; margin-bottom: 10px;" width="30%">
+  <img src="https://github.com/user-attachments/assets/b61ec3bd-e8f2-49c7-af6b-1b1861aed881" alt="Image 1" style="margin-right: 10px; margin-bottom: 10px;" width="30%">
   </p>
-  <p>
-<img src="https://github.com/user-attachments/assets/b61ec3bd-e8f2-49c7-af6b-1b1861aed881" alt="Image 1" style="margin-right: 10px; margin-bottom: 10px;" width="30%">
-<img src="https://github.com/user-attachments/assets/bc7c0598-e788-4186-88d1-c9c94e4b42ec" alt="Image 1" style="margin-right: 10px; margin-bottom: 10px;" width="30%">
-
-</p>
-
-
+<p>
+<img src="https://github.com/user-attachments/assets/4cf12a66-244d-491f-99f0-4a08d667982f" alt="Image 1" style="margin-right: 20px; margin-bottom: 10px;" width="30%">
+<img src="https://github.com/user-attachments/assets/55510b5b-6f91-4f8b-ae1d-f96d055112c5" alt="Image 1" style="margin-right: 20px; margin-bottom: 10px;" width="30%">
+  <img src=https://github.com/user-attachments/assets/d67d1215-9b29-4a1e-9c49-5a67b65ce6e4" alt="Image 1" style="margin-right: 10px; margin-bottom: 10px;" width="30%">
+  </p>
+<p>
+<img src="https://github.com/user-attachments/assets/a1391858-71a0-4393-9c0e-671c77887ca2" alt="Image 1" style="margin-right: 20px; margin-bottom: 10px;" width="30%">
+<img src="https://github.com/user-attachments/assets/55510b5b-6f91-4f8b-ae1d-f96d055112c5" alt="Image 1" style="margin-right: 20px; margin-bottom: 10px;" width="30%">
+  <img src="https://github.com/user-attachments/assets/e4060042-2e06-4afc-99e5-f3b743dc7dd8" alt="Image 1" style="margin-right: 10px; margin-bottom: 10px;" width="30%">
+  </p>
 
 # RESTful API Integration in Flutter
+
 
 
 This Flutter project showcases full Firebase authentication combined with RESTful API integration using the JSON Placeholder API. The project covers both GET and POST API requests, handling different JSON structures, dynamic data fetching, and image uploading. Postman has been used to test and validate API responses.
